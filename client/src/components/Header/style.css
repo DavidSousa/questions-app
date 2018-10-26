@@ -1,0 +1,39 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #F67E7D;
+  border-bottom: 1px solid #373634;
+  height: 50px;
+  text-align: center;
+}
+
+.header .menu {
+  margin: 0 auto;
+  width: 600px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.search-results {
+  font-size: 14px;
+  background-color: #FFF;
+  position: absolute;
+  top: 42px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  text-align: left;
+  max-height: 124px;
+  min-width: 138px;
+  overflow: auto;
+}
+
+.search-results > li {
+  padding: 7px 10px 7px 10px;
+  cursor: pointer;
+}
+
+.search-results > li:hover {
+  background-color: #E0E6EC;;
+}
