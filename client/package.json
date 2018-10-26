@@ -5,7 +5,7 @@
   "proxy": "http://localhost:5000",
   "dependencies": {
     "axios": "^0.18.0",
-    "eslint": "^4.9.0",
+    "eslint": "^5.8.0",
     "prop-types": "^15.6.2",
     "react": "^16.6.0",
     "react-copy-to-clipboard": "^5.0.1",
